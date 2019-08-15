@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="js/personinfo.js"></script>
+</head>
+
+<body>
+    <label>Adi:
+        <input id="name" type="text" placeholder="Ad daxil edin" value="Filankes">
+    </label>
+    <br>
+    <label>Soyadi:
+        <input id="surname" type="text" placeholder="Soyad daxil edin" value="Filankesov">
+    </label>
+    <br>
+    <label>Qrup nomresi:
+        <input id="groupNo" type="text" placeholder="Qrup nomresi daxil edin" value="P300">
+    </label>
+    <br>
+    <button onclick="addStudent()">
+        Elave et
+    </button>
+    <button onclick="saveData()">
+        Yadda Saxla
+    </button>
+    <button onclick="loadData()">Oxu</button>
+    <hr>
+    <table id="students" border="1" width="100%">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Qrup Nomresi</th>
+            </tr>
+        </thead>
+        <tbody> 
+
+        </tbody>
+    </table>
+</body>
+
+</html>
